@@ -19,28 +19,28 @@ Github pages: https://imramuha.github.io/app/
 Functioneel
 ------------
 Bezoeker
->Gepagineerd overzicht van werkstukken
->Detail van een werkstuk
->Specialisaties van de opleiding
->Blog van de opleiding
->Detail van een artikel
->Contacteren van de opleiding
->Social media van de opleiding
->Registreren
+> - Gepagineerd overzicht van werkstukken
+> - Detail van een werkstuk
+> - Specialisaties van de opleiding
+> - Blog van de opleiding
+> - Detail van een artikel
+> - Contacteren van de opleiding
+> - Social media van de opleiding
+> - Registreren
 Geregistreerde gebruiker (na inloggen)
->Liken, toevoegen aan favorieten van werkstukken
->Delen via social media
+> - Liken, toevoegen aan favorieten van werkstukken
+> - Delen via social media
 
 Technisch
 ----------
-> NPM
-> ES6
-> Sass
-> Gulp
+> - NPM
+> - ES6
+> - Sass
+> - Gulp
 Routing engines
-> Navigo
-> Handlebars
-> Handlebars layouts
+> - Navigo
+> - Handlebars
+> - Handlebars layouts
 
 > **TODO**
 > - views, studenten volgen
