@@ -34,7 +34,7 @@ export class LoadJson {
           <div class="textHover">
           </div>
           <div>
-          <img class="imgProject" src="app/assets/images/projects/${projects[i].imgProject[0]}">
+          <img class="imgProject" src="assets/images/projects/${projects[i].imgProject[0]}">
           </div>
         </div>
         <div>
@@ -42,7 +42,7 @@ export class LoadJson {
             ${projects[i].nameStudent}
           </div>
           <div class="nameProject">            
-          <a href="detailPageProject.html"><h2>${projects[i].nameProject}</h2></a>
+          <a href="detailpageproject.html"><h2>${projects[i].nameProject}</h2></a>
           </div>
         </div>
       </div>`;
@@ -53,7 +53,7 @@ export class LoadJson {
             <div class="textHover">
             </div>
             <div>
-            <img class="imgProject" src="app/assets/images/projects/${projects[i].imgProject[0]}">
+            <img class="imgProject" src="assets/images/projects/${projects[i].imgProject[0]}">
             </div>
           </div>
           <div>
@@ -61,7 +61,7 @@ export class LoadJson {
               ${projects[i].nameStudent}
             </div>
             <div class="nameProject">            
-            <a href="detailPageProject.html"><h2>${projects[i].nameProject}</h2></a>
+            <a href="detailpageproject.html"><h2>${projects[i].nameProject}</h2></a>
             </div>
           </div>
         </div>`;
@@ -90,9 +90,9 @@ export class LoadJson {
       if (articles[i].articleId % 2 === 0) {
         tempStr += `
           <div class="articleDetailContainer">
-            <img  class="imgArticle Left" src="app/assets/images/articles/${articles[i].articleImage}">
+            <img  class="imgArticle Left" src="assets/images/articles/${articles[i].articleImage}">
             <div class="textArticle Right">
-              <p><a href="detailPageArticle.html">${articles[i].articleTitle}</a></p>
+              <p><a href="detailpagearticle.html">${articles[i].articleTitle}</a></p>
               <p class="articleThumb">${articles[i].articleThumbText}</p>
               <p>${articles[i].articleDate}</p>
             </div>
@@ -102,11 +102,11 @@ export class LoadJson {
         tempStr += `
         <div class="articleDetailContainer">
           <div class="textArticle Left">
-            <p><a href="detailPageArticle.html">${articles[i].articleTitle}</a></p>
+            <p><a href="detailpagearticle.html">${articles[i].articleTitle}</a></p>
             <p class="articleThumb">${articles[i].articleThumbText}</p>
             <p>${articles[i].articleDate}</p>
           </div>
-          <img  class="imgArticle Right" src="app/assets/images/articles/${articles[i].articleImage}">
+          <img  class="imgArticle Right" src="assets/images/articles/${articles[i].articleImage}">
         </div>`;
       }
     // console.log(value);
@@ -119,10 +119,10 @@ export class LoadJson {
     posts.forEach(function (value, i) {
       tempStr += `
       <div class="blogPost">
-        <div class="overlay"><img src="app/assets/images/${posts[i].postImg[0]}" alt="blurred photo about topic of the blogpost">
+        <div class="overlay"><img src="assets/images/${posts[i].postImg[0]}" alt="blurred photo about topic of the blogpost">
         </div>
         <div class="box above">
-          <img src="app/assets/images/${posts[i].postImg[1]}" alt="Creater of the blogpost">
+          <img src="assets/images/${posts[i].postImg[1]}" alt="Creater of the blogpost">
           <h3>${posts[i].postCreator}</h3>
           <p>${posts[i].postCreatorNature}</p>
         </div>
@@ -156,7 +156,7 @@ export class LoadJson {
               ${projects[i].nameStudent}
             </div>
             <div class="nameProject">            
-              <a href="detailPageProject.html"><h2>${projects[i].nameProject}</h2></a>
+              <a href="detailpageproject.html"><h2>${projects[i].nameProject}</h2></a>
             </div>
           </div>
         </div>`;
@@ -175,7 +175,7 @@ export class LoadJson {
               ${projects[i].nameStudent}
             </div>
             <div class="nameProject">            
-              <a href="detailPageProject.html"><h2>${projects[i].nameProject}</h2></a>
+              <a href="detailpageproject.html"><h2>${projects[i].nameProject}</h2></a>
             </div>
           </div>
         </div>`;
@@ -190,7 +190,7 @@ export class LoadJson {
         <div class="articleDetailContainer">
           <img  class="imgArticle Left" src="assets/images/articles/${articles[i].articleImage}">
           <div class="textArticle Right">
-            <p><a href="detailPageArticle.html">${articles[i].articleTitle}</a></p>
+            <p><a href="detailpagearticle.html">${articles[i].articleTitle}</a></p>
             <p class="articleThumb">${articles[i].articleThumbText}</p>
             <p>${articles[i].articleDate}</p>
           </div>
@@ -200,7 +200,7 @@ export class LoadJson {
         tempStrArticles += `  
         <div class="articleDetailContainer">
           <div class="textArticle Left">
-            <p><a href="detailPageArticle.html">${articles[i].articleTitle}</a></p>
+            <p><a href="detailpagearticle.html">${articles[i].articleTitle}</a></p>
             <p class="articleThumb">${articles[i].articleThumbText}</p>
             <p>${articles[i].articleDate}</p>
           </div>
